@@ -1,0 +1,445 @@
+body {
+    /*清除默认样式*/
+    margin: 0px;
+    padding: 0px;
+}
+
+/*div居中*/
+.div_center {
+    /*文字居中*/
+    margin: 0px auto;
+    width: 950px;
+
+}
+
+.top_center {
+    height: 70px;
+    background: white;
+}
+
+.top_left {
+    float: left;
+    /*行高*/
+    line-height: 70px;
+    font-size: 30px;
+    /*字体加粗*/
+    font-weight: bold;
+}
+
+span {
+    color: darkred;
+}
+
+.top_right {
+    float: right;
+}
+
+.img_phone {
+    margin-left: 490px;
+}
+
+.phone {
+    /*图片居中*/
+    margin: 0px auto;
+}
+
+.number {
+    font-size: 25px;
+    /*字体加粗*/
+    font-weight: bold;
+}
+
+.nav {
+    height: 45px;
+    background: darkred;
+}
+
+.nav1 {
+    border: 2px solid white;
+    /*div下边框，transparent透明*/
+    border-color: transparent transparent white transparent;
+}
+
+.nav_a {
+    float: left;
+    height: 41px;
+    /*行高，文字水平垂直居中*/
+    line-height: 45px;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+a {
+    /*清除超链接下划线*/
+    text-decoration: none;
+    /*改变超链接字体颜色*/
+    color: white;
+}
+
+a:hover {
+    /*点击时清除下划线*/
+    text-decoration: none;
+    /*点击时字体颜色*/
+    color: darkgoldenrod;
+}
+
+.cont1 {
+    height: 340px;
+}
+
+.cont1_left {
+    float: left;
+    height: 300px;
+    width: 140px;
+    margin-top: 15px;
+    background: darkred;
+}
+
+.cont1_left_top {
+    height: 36px;
+    background: #c62125;
+    margin-top: 14px;
+}
+
+.cont1_left_div1 {
+    float: right;
+    margin-right: 12px;
+    color: white;
+    /*行高*/
+    line-height: 36px;
+    font-size: 17px;
+    /*字体间距*/
+    letter-spacing: 3px;
+}
+
+.cont1_left_down {
+    margin-top: 23px;
+}
+
+.cont1_left_down_div {
+    width: 120px;
+    margin-top: 12px;
+    margin-left: 10px;
+    background: antiquewhite;
+    text-align: center;
+}
+
+.cont1_right {
+    float: right;
+    height: 300px;
+    width: 800px;
+    margin-top: 15px;
+}
+
+.cont1_right_div {
+    float: right;
+    padding: 0px 18px 0px 15px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    /*多行溢出,使用Css的扩展属性*/
+
+    /*溢出隐藏*/
+    overflow: hidden;
+    /*弹性盒模型显示，讲对象作为弹性伸缩盒子模型显示*/
+    display: -webkit-box;
+    /*盒模型元素的排列方式，设置伸缩盒对象的子元素的排列方式*/
+    -webkit-box-orient: vertical;
+    /*显示行数，限制块元素显示的文本行数，必须结合其他属性*/
+    -webkit-line-clamp: 3;
+
+}
+
+.cont2 {
+    background: rgba(160, 147, 141, 0.12);
+    height: 150px;
+}
+
+.cont2_left {
+    float: left;
+}
+
+.cont2_content {
+    float: left;
+    margin-left: 15px;
+    width: 300px;
+}
+
+.cont2_right {
+    float: right;
+    width: 360px;
+    height: 150px;
+}
+
+.cont2_right_top {
+    width: 360px;
+    height: 29px;
+}
+
+.cont2_right_left_img {
+    float: left;
+}
+
+.cont2_right_conter {
+    float: left;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 29px;
+    margin-left: 3px;
+}
+
+.cont2_right_right {
+    float: right;
+    height: 20px;
+    width: 53px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+    border-radius: 14px;
+    background: #A82327;
+    color: white;
+    font-size: 12px;
+}
+
+.cont2_right_down {
+    width: 360px;
+    height: 121px;
+}
+
+.cont2_right_down1 {
+    float: left;
+    width: 360px;
+    height: 18px;
+    padding-bottom: 5px;
+}
+
+.cont2_right_down1_1 {
+    float: left;
+    font-size: 13px;
+    border: 1px dashed black;
+    /*!*div下边框，transparent透明*!*/
+    border-color: transparent transparent black transparent;
+
+    /**!*单行溢出,显示省略号，用text-overflow属性，需要增加宽度*!*!*/
+    /*!*!*溢出隐藏*!*!*/
+    overflow: hidden;
+    /*!*!*隐藏的部分用...表示*!*!*/
+    text-overflow: ellipsis;
+    /*!*!*文字不能转行*!*!*/
+    white-space: nowrap;
+    width: 244px;
+}
+
+.cont2_right_down1_2 {
+    float: right;
+    font-size: 13px;
+}
+
+
+.cont3_center {
+    height: 150px;
+}
+
+.cont3_top {
+    height: 30px;
+    margin-top: 25px;
+}
+
+.cont3_top_1 {
+    float: left;
+}
+
+.cont3_top_2 {
+    float: left;
+    margin-left: 6px;
+    /*行高*/
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.cont3_img1 {
+    float: left;
+    margin-top: 12px;
+    margin-left: -36px;
+    margin-bottom: 18px;
+}
+
+.cont3_img2 {
+    margin-left: 62px;
+    margin-bottom: 18px;
+}
+
+.cont5 {
+    height: 170px;
+    margin-top: 15px;
+}
+
+.cont5_left {
+    float: left;
+    height: 170px;
+    width: 360px;
+}
+
+.cont5_left_div1 {
+    height: 47px;
+}
+
+.cont5_left_div1_1 {
+    float: left;
+}
+
+.cont5_left_div1_2 {
+    float: left;
+    margin-left: 8px;
+    line-height: 47px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.cont5_left_div1_3 {
+    float: right;
+    background: brown;
+    width: 65px;
+    height: 24px;
+    /*!*行高*!*/
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    /*字体间距*/
+    letter-spacing: 4px;
+    /*!*div的弯曲程度，圆角矩形*!*/
+    border-radius: 15px;
+    color: white;
+    margin-top: 12px;
+}
+
+.cont5_left_div2 {
+    margin-left: -48px;
+}
+
+.cont5_img {
+    float: left;
+    margin-left: 13px;
+}
+
+.cont5_right {
+    float: right;
+    height: 170px;
+    width: 310px;
+
+}
+
+.cont5_right_div1 {
+    height: 30px;
+    width: 310px;
+    line-height: 30px;
+    color: #c62125;
+    font-size: 20px;
+}
+
+.foot1 {
+    height: 120px;
+    background: #353535;
+    margin-top: 30px;
+}
+
+.foot1_top {
+    width: 650px;
+    height: 29px;
+    margin: 0px auto;
+}
+
+.foot1_top1 {
+    float: left;
+    padding: 10px;
+    height: 6px;
+    width: 70px;
+    border: 1px solid white;
+    line-height: 6px;
+    text-align: center;
+    margin-top: 30px;
+    border-color: transparent white transparent transparent;
+    color: white;
+}
+
+.foot1_down {
+    float: left;
+    width: 424px;
+    height: 23px;
+    margin-top: 26px;
+    margin-left: 250px;
+}
+
+.foot1_down1 {
+    float: left;
+    padding: 2px;
+    height: 15px;
+    width: 79px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+}
+
+.foot2 {
+    height: 35px;
+    background: #A82327;
+}
+
+.foot2_center {
+    color: white;
+    line-height: 35px;
+}
+
+.foot2_div1 {
+    margin-left: 320px;
+}
+
+/*图片上方叠加一个半透明颜色层，并在半透明颜色层上叠加文字*/
+.bg_img {
+    /*相对位置*/
+    position: relative;
+    width: 225px;
+    height: 152px;
+}
+
+.ms {
+    /*绝对位置*/
+    position: absolute;
+    background: #a82327;
+    /*透明度*/
+    opacity: 0.8;
+    /*span标签的大小*/
+    width: 225px;
+    height: 20px;
+    /*偏移到div上*/
+    left: 0;
+    /*span标签下移*/
+    bottom: 0.1px;
+    text-align: center;
+    color: white;
+    /*filter:alpha(opacity=60);*/
+    /*-moz-opacity:0.6;*/
+}
+
+.toumingzi {
+    position: absolute;
+    background: cornflowerblue;
+    /*透明度*/
+    opacity: 0.8;
+    /*字体居中*/
+    text-align: center;
+    /*div标签上移*/
+    top: 0.1px;
+    width: 225px;
+    height: 20px;
+}
+
+

@@ -1,0 +1,61 @@
+
+.content {
+    width: 550px;
+    height: 700px;
+    background: burlywood;
+    /*居中*/
+    margin: 0px auto;
+}
+
+.top {
+    text-align: center;
+    /*居中*/
+    margin: 0px auto;
+    height: 30px;
+    background: chocolate;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.content_div {
+    float: left;
+    width: 550px;
+    height: 40px;
+    /*background: #35f800;*/
+    font-size: 20px;
+    margin: 8px;
+}
+
+.info {
+    float: left;
+    width: 150px;
+    /*text-align: center;*/
+    line-height: 30px;
+    letter-spacing: 10px;
+
+}
+
+.input {
+    float: left;
+    margin-left: 2px;
+    line-height: 30px;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.input_box {
+    width: 200px;
+    height: 23px;
+}
+
+.information {
+    width: 100px;
+    height: 100px;
+    /*background: #c62125;*/
+}
+
+textarea {
+    resize: none;
+}

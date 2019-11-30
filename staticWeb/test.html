@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+
+<style>
+    div {
+        background-image: url("1.png");
+    }
+
+    table {
+        height: 5px;
+        width: 8px;
+    }
+</style>
+<body>
+
+<div id="d1">含金量</div>
+<ul>
+    <li></li>
+    <li title="hello">ty</li>
+    <li class="box">fg</li>
+    <li class="box">hgj</li>
+    <li title="hello">fghj</li>
+</ul>
+
+<script>
+    $(function () {
+        //动态创建table
+        var table = document.createElement('table');
+        console.log("qadwfq");
+        for (var i = 0; i < 2; i++) {
+            var Tr = document.createElement('tr');
+
+            for (var j = 0; j < 2; j++) {
+                var Td = document.createElement('td');
+                Td.innerHTML="sagfuidg";
+                Tr.appendChild(Td);
+            }
+            table.appendChild(Tr);
+        }
+        document.getElementById("d1").appendChild(table);
+    });
+
+    // function div1() {
+    //
+    // }
+
+    // $("#div1").click(function () {
+    //
+    // })
+
+    //$('li:eq(2)').css('background','red');
+
+    // $('li:odd').css('background', 'red'); // 偶数行
+    // $('li:even').css('background', 'blue');  //奇数行
+    // $('li').filter('.box').css('background', 'red');
+    // $('li').filter('[title=hello]').css('background','red');
+
+    //
+    // $(function () {
+    //     //js
+    //     $("div").css("background-image", "url('1.png')");
+    //     // var oUl = document.getElementsByTagName('ul')[0];
+    //     // var aLi = oUl.getElementsByTagName('li');
+    //     // for(var i=0; i<aLi.length; i++){
+    //     //     if(aLi[i].title!=''){
+    //     //         aLi[i].style.background='pink';
+    //     //     }
+    //     // }
+    //
+    //     //jquery
+    //     // $("li[title=hello]").css("background", "blue");
+    // })
+
+    // $(read(function () {
+    //     alert(23);
+    // }))
+    //
+    // $(document).ready(function () {
+    //     alert(2);
+    // })
+
+    // $(function(){
+    //     $()
+    // })
+
+
+
+</script>
+</body>
+</html>
